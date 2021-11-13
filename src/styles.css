@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Pixel Cyr";
+  src: url("/assets/fonts/pixelcyr.ttf") format("opentype");
+}
+
+body {
+  font-family: "Pixel Cyr";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #222931;
+  color: #feffff;
+}
