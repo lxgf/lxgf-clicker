@@ -1,0 +1,6 @@
+{
+  "firestore": {
+    "rules": "fb-rules",
+    "indexes": "fb-indexes"
+  }
+}

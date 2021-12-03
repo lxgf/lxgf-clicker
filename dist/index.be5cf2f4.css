@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Pixel Cyr";
+  src: url('pixelcyr.8ce3cb8b.ttf');
+}
+
+@font-face {
+  font-family: "Pixeloid Mono";
+  src: url('pixeloidmono.139eebd3.ttf');
+}
+
+:root {
+  font-size: 10px;
+}
+
+::selection {
+  background-color: white;
+  color: #222931;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Pixel Cyr";
+  background: #222931;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.container {
+  padding: 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid white;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+.header__image {
+  height: 1rem;
+}
+
+.header__controls {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__controls>img {
+  height: 1rem;
+  cursor: pointer;
+}
+
+.header__controls>img:nth-child(2) {
+  padding: 0 .5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  border: 2px solid white;
+  padding: .5rem;
+  background-image: url('fir_tree_rotated.222b4322.svg'), url('fir_tree.5a65f73e.svg');
+  background-repeat: repeat-x;
+  background-position: top, bottom;
+  background-size: 20%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #222931;
+  padding: 0 .5rem;
+  background: white;
+}
+
+.click-btn {
+  display: flex;
+  user-select: none;
+  background: #F4533F;
+  font-size: 2rem;
+  border: 2px solid white;
+  padding: 2rem;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+
+.click-btn:active {
+  transform: scale(1.2);
+}
+
+.score {
+  font-family: "Pixeloid Mono";
+  font-size: 3rem;
+}
+
+.info {
+  color: beige;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+
+  body {
+    font-size: 1.6rem;
+  }
+
+  .header__image {
+    height: 1.6rem;
+  }
+
+  .header__controls>img {
+    height: 1.6rem;
+    cursor: pointer;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+
+  .main {
+    background-size: 10%;
+  }
+
+  .main {
+    height: 80vh;
+    padding: 10rem 0;
+  }
+  
+} 
+/*# sourceMappingURL=index.be5cf2f4.css.map */
