@@ -1,2 +1,2 @@
 # lxgf-clicker
-Created with CodeSandbox
+npm i parcel to run
